@@ -48,3 +48,25 @@ switch($day){
     break;
 }
 
+
+
+
+
+
+$x=0
+for($x = 50, $x<=100;$x+=2){
+    echo "$x <br>":
+}
+
+$students =  array ('Anik''Daris''Eden''Andi')
+foreach(students as $x){
+    echo "$x <br>"
+}
+$strinng = "Aniku dhe And Dopsira"
+
+while(strlen($strinng)<10){
+    echo ($strinng);
+    $strinng = $strinng.'a';
+    
+}
+?>
