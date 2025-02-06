@@ -3,19 +3,19 @@
 
 $score=63;
 
-if{$score>90}{
+if{$score<=100 && $score>80}{
     echo "Best Grade 5";
 }
-elseif($score>=80 && $score71){
+elseif($score<=80 && $score>=71){
     echo "4"
 }
-elseif($score>=70 && $score59){
+elseif($score<=70 && $score>=59){
     echo "3"
 }
-elseif(score>=60 && $score49){
+elseif($score<=60 && $score>=49){
     echo "2"
 }
-elseif($score<50 && $score0){
+elseif($score<=50 && $score>=0){
     echo "1"
 }
 
