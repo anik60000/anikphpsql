@@ -1,23 +1,15 @@
 <?php
+session_start();
+
 $server = 'localhost';
-$username = 'root';
-$dbname = 'db';
-$password = '';
+$pass='';
+$user = 'root';
+$dbname = 'dita11';
 
-try{
-    $connection = new PDO ("mysql:host = $server; dbname=$dbname",$username,$password);
+    try{
+        $conn = new PDO("mysql:host=$server;dbname=$dbname;",$user,$pass);
 
-    echo "Connection succesful";
-
-} catch (Exception $e){
-    echo "Something went wrong";
-}
-
-
-
-
-
-
-
-
+    } catch(Exception $e){
+        echo "error ".$e;
+    }
 ?>
