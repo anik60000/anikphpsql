@@ -40,6 +40,7 @@ $users = $getUsers->fetchAll();
             <td><?= $user['surname']?></td>
             <td><?= $user['email']?></td>
             <td><?= $user['age']?></td>
+            <td> <?= "<a href='delete.php?id=$user[id]>        "
     </tr>
     <?php
     }
