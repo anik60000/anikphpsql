@@ -100,7 +100,8 @@
           </a>
         </li>
         </ul>
-        <h2>Users</h2>
+        <h2>Movies</h2>
+        <a href="movies.php" class="btn btn-primary">Add Movie</a>
       <div class="table-responsive">
         <table class="table table-striped table-sm">
           <thead>
